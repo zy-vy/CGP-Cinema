@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playing_in_theater"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/material_dynamic_tertiary80"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMovieList"
+        android:layout_width="match_parent"
+        android:layout_height="619dp"
+        android:layout_below="@+id/tvHeading"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="70dp"
+        tools:listitem="@layout/movie_item" />
+
+    <Button
+        android:id="@+id/btn_show_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/gcp_location"
+        android:layout_marginStart="25dp"
+        />
+
+    <Button
+        android:id="@+id/btn_book_mini_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/book_mini_room"
+        android:layout_marginEnd="25dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CGP-Cinema</string>
+    <string name="gcp_location">GCP location</string>
+    <string name="book_mini_room">book mini room</string>
+    <string name="title_activity_gcp_maps">GcpMapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playing_in_theater">Playing in Theater</string>
+    <string name="cgp_alpha">CGP Alpha</string>
+    <string name="cgp_beta">CGP Beta</string>
+    <string name="price_200_000">Price : 200.000</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="spider_man">Spider Man</string>
+    <string name="price_500_000">Price : 500.000</string>
+    <string name="batman">Batman</string>
+    <string name="avatar">Avatar</string>
+    <string name="movies_selection">Movies Selection</string>
+</resources>
